@@ -1,0 +1,88 @@
+
+#wrapper {
+    width: 40%;
+    border: 1px solid red;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+}
+
+button {
+    /* width: 20%;
+    aspect-ratio: 1; */
+}
+.b1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+.b2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+.b3 {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+.b4 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+}
+.b5 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+.b6 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 1;
+}
+.b7 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+}
+.b8 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+.b9 {
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+}
+.b0 {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+}
+.bpl {
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 1;
+}
+.bmi {
+    grid-column: 4 / span 1;
+    grid-row: 2 / span 1;
+}
+.bmu {
+    grid-column: 4 / span 1;
+    grid-row: 3 / span 1;
+}
+.bdi {
+    grid-column: 4 / span 1;
+    grid-row: 4 / span 1;
+}
+.del {
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 1;
+}
+.dot {
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+}
+.eq {
+    grid-column: 5 / span 1;
+    grid-row: 1 / span 4;
+}
+button.big {
+    aspect-ratio: .5;
+}
